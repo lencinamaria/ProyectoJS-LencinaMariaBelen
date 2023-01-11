@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+
+   nav {
+    background-color: #343131; }
+  
+  a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "verdana"; }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px; }   
+
+ img{
+        max-width: 100%;
+        height: auto;
+      }    
+
+    .textoingreso{
+        display:flex;
+        justify-content:center;
+        width: 90%;
+        color: rgb(35, 35, 35);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        animation-name: textos;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+      }
+    .conteinertexto1{
+      
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       
+      }
+      
+    @keyframes textos {
+      
+        0% {
+            color: rgb(33, 31, 31);
+            font-size: 100%;
+            width: 10%;
+           }
+        25% {
+            color: rgb(120, 116, 116);
+            width: 30%;
+            font-size: 150%;
+           }
+        50% {
+            color: rgb(182, 169, 169);
+            width: 30%;
+            font-size: 190%;
+           }
+        75% {
+            color: rgb(227, 210, 210);
+            width: 30%;
+            font-size: 250%;
+           }   
+        100% {
+            color: rgb(255, 255, 255);
+            width: 100%;
+            font-size: 300%;
+        }
+      }  
+
+    .footer-contenido{
+        display: flex;
+      }
+    .footer-caja-izq{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        align-items: center;
+        justify-content: center;
+        text-align: center; 
+        background-color: rgb(57, 56, 56);
+      }
+    .social-iconos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 80%;
+        align-items: center;
+        background-color: rgb(110, 110, 109);
+      }
+    .texto-footer-izq{
+        color: rgb(211, 211, 211);
+        font-size: small;
+      
+      }
+
+      #grilla-galeria{
+        display:grid;
+        height: 3000px;
+        grid-template-rows: 5% 20% 5% 20% 5% 20% 5% 20%;
+        grid-template-columns: 30% 30% 30% ;
+        background-color: rgb(255, 255, 255);
+    
+        grid-template-areas:"a1 a1 a1"
+                            "a2 a3 a4"
+                            "a5 a5 a5"
+                            "a6 a7 a8"
+                            "a9 a9 a9"
+                            "a10 a11 a12"
+                            "a13 a13 a13"
+                            "a14 a15 a16";
+    
+        justify-items: center;
+        align-items: center;
+    
+        justify-content: center;
+        align-content: space-around;
+    }
+    .titulos-galeria1{
+        display:flex;
+        justify-content: space-evenly;
+        background-color: rgb(192, 189, 188);
+        grid-area: a1;
+        width: 95%;
+    }
+    .titulos-galeria2{
+        display:flex;
+        justify-content: space-evenly;
+        background-color: rgb(192, 189, 188);
+        grid-area: a5;
+        width: 95%;
+    }
+    .titulos-galeria3{
+        display:flex;
+        justify-content: space-evenly;
+        background-color: rgb(192, 189, 188);
+        grid-area: a9;
+        width: 95%;
+    }
+    .titulos-galeria4{
+        display:flex;
+        justify-content: space-evenly;
+        background-color:rgb(192, 189, 188);
+        grid-area: a13;
+        width: 95%;
+    }   
+    .fotos-productos1{
+        display: flex;
+        object-fit: contain;
+        grid-area: a2;
+    }
+    .fotos-productos2{
+        display: flex;
+        object-fit: contain;
+        grid-area: a3;
+    }  
+    .fotos-productos3{
+        display: flex;
+        object-fit: contain;
+        grid-area: a4;
+    }
+    .fotos-productos4{
+        display: flex;
+        object-fit: contain;
+        grid-area: a6;
+    }
+    .fotos-productos5{
+        display: flex;
+        object-fit: contain;
+        grid-area: a7;
+    }
+    .fotos-productos6{
+        display: flex;
+        object-fit: contain;
+        grid-area: a8;
+    }  
+    .fotos-productos7{
+        display: flex;
+        object-fit: contain;
+        grid-area: a10;
+    }
+    .fotos-productos8{
+        display: flex;
+        object-fit: contain;
+        grid-area: a11;
+    }
+    .fotos-productos9{
+        display: flex;
+        object-fit: contain;
+        grid-area: a12;
+    }
+    .fotos-productos10{
+        display: flex;
+        object-fit: contain;
+        grid-area: a14;
+    }
+    .fotos-productos11{
+        display: flex;
+        object-fit: contain;
+        grid-area: a15;
+    }
+    .fotos-productos12{
+        display: flex;
+        object-fit: contain;
+        grid-area: a16;
+    }
+
+  
